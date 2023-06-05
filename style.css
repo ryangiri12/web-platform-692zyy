@@ -3,7 +3,7 @@
       }
       div.parent {
         display: grid;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 200px auto;
         min-height: 100vh;
         grid-gap: 20px;
       }
@@ -32,6 +32,7 @@
       }
       nav li {
         list-style-type: none;
+        margin-bottom: 15px;
       }
       nav ul{
         padding: 0;
@@ -44,5 +45,25 @@
         border-style: solid;
         border-radius: 20px;
         padding: 1rem;
-        margin: 2rem;
-      }
+        margin: 2rem; }
+    
+#spacing-lesson {
+  width: 150px;
+  height: 150px;
+padding: 100px;
+margin: 50px;
+margin: auto;
+margin-top: 25px;
+}
+
+
+.inline-div {
+  display: inline;
+  background-color: lightgreen;
+  color: black;
+}
+
+.bi {
+  margin-right: 10px;
+  margin-left: 10px;
+}
