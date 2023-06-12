@@ -1,4 +1,12 @@
-  nav {
+html {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+}
+
+nav {
         background: yellow;
       }
       div.parent {
@@ -54,9 +62,14 @@ padding: 100px;
 margin: 50px;
 margin: auto;
 margin-top: 25px;
+text-align: center;
+border-radius: 10px;
+box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6) ;
 }
 
-
+#spacing-lesson .round{
+border-radius: 30px;
+}
 .inline-div {
   display: inline;
   background-color: lightgreen;
